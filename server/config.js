@@ -1,6 +1,6 @@
 module.exports = {
   server: {
-    port: 8080
+    port: 8081
   },
   mediasoup: {
     // mediasoup Server settings.
@@ -17,7 +17,7 @@ module.exports = {
     ],
     rtcIPv4: true,
     rtcIPv6: true,
-    rtcAnnouncedIPv4: null,
+    rtcAnnouncedIPv4: "192.168.10.235",
     rtcAnnouncedIPv6: null,
     rtcMinPort: 40000,
     rtcMaxPort: 49999,
